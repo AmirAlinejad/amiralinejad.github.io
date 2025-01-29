@@ -1,0 +1,187 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e5e0df;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav p, nav a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #23100c;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #53bbf4;
+    text-align: center;
+   
+}
+
+.splash h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.splash img {
+    border-radius: 75px;
+    border: 2px solid white;
+}
+
+.splash p {
+    font-style: italic;
+}
+
+/* Horizontal Rules */
+hr {
+    height: 2px;
+    background-color: #000000;
+   
+}
+
+/* Sections */
+section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #097fc0;
+    font-size: 16px;
+}
+
+/* Paragraph Styles */
+section p {
+    font-size: 16px;
+}
+
+/* link Styles */
+section a {
+    color: #097fc0;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+dl dt {
+    font-weight: bold;
+}
+dl dd {
+    margin: 5px;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);   
+}
+
+.card {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #097fc0;
+    font-size: 16px;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #097fc0;
+}
+
+form button {
+    background-color: #097fc0;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: #097fc0;
+}
+
